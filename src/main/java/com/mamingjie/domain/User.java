@@ -15,7 +15,7 @@ public class User {
 
     private String name;
 
-    private int sex;
+    private Integer sex;
 
     public Long getId() {
         return id;
@@ -33,11 +33,11 @@ public class User {
         this.name = name;
     }
 
-    public int getSex() {
+    public Integer getSex() {
         return sex;
     }
 
-    public void setSex(int sex) {
+    public void setSex(Integer sex) {
         this.sex = sex;
     }
 }
